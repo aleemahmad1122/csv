@@ -5,6 +5,7 @@ import { Logo, MobileMenu, DropDown } from "@/components/index";
 import { navLinks } from "@/constants/index";
 import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import Image from "next/image";
 
 const Header = () => {
   const router = useRouter();
@@ -39,7 +40,16 @@ const Header = () => {
     >
       <nav className="py-2.5 ">
         <div className="flex flex-wrap justify-between items-center container mx-auto px-4 ">
-          <Logo color={true} />
+          <figure className="flex items-center gap-2">
+            <Image
+              width={30}
+              height={30}
+              alt=""
+              src={"/3dlogo.png"}
+              className="object-contain"
+            />
+            <Logo color={false} />
+          </figure>
           <div className="flex items-center lg:order-2">
             <div
               className="hidden lg:flex"

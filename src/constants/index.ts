@@ -32,7 +32,7 @@ export const navLinks: T.NavLink[] = [
   { title: "Services", link: "/services", menu: [{ title: 'comming soon', link: '/some' }] },
   { title: "company", link: "/company", menu: false },
   { title: "careers", link: "/careers", menu: false },
-  { title: "work", link: "/our-work", menu: false },
+  { title: "projects", link: "/our-work", menu: false },
   // { title: "Team", link: "/our-team", menu: false },
 ];
 
@@ -228,7 +228,7 @@ export const journey: T.Journey[] = [
     Icon: FaUser
   },
   {
-    count: 2,
+    count: 4,
     p: 'global offices',
     plus: false,
     Icon: FaHome
@@ -257,6 +257,18 @@ export const marqueeImageLinks: string[] = [
   '/projects/7.png',
   '/projects/8.png',
   '/projects/9.png',
+  '/projects/10.png',
+  '/projects/11.png',
+  '/projects/12.png',
+  '/projects/13.png',
+  '/projects/14.png',
+  '/projects/15.png',
+  '/projects/16.jpg',
+  '/projects/17.png',
+  '/projects/18.png',
+  '/projects/19.png',
+  '/projects/20.png',
+  '/projects/21.jpg',
 ]
 
 
@@ -303,7 +315,7 @@ export const teamCards: T.TeamCards[] = [
     linkedin: 'https://www.linkedin.com/in/fasahat-malik-357b0b25/'
   },
   {
-    image: '/team/17.jpg',
+    image: '/team/csv/15.png',
     heading: 'Fouad Shahid',
     tagline: 'Chief Executive Officer',
     description: 'At the helm of CyberSoft Vantage, our Chief Executive Officer orchestrates a symphony of innovation, excellence, and strategic direction, propelling us to new heights in the dynamic realm of technology.',
@@ -343,13 +355,6 @@ export const teamCards: T.TeamCards[] = [
     tagline: 'Senior Technical Project Manager',
     description: 'As the linchpin of project success at CyberSoft Vantage, our Senior Technical Project Manager meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
     linkedin: "https://www.linkedin.com/in/abdullah-zubair-/"
-  },
-  {
-    image: '/team/csv/10.png',
-    heading: 'MUNEEB UR REHMAN',
-    tagline: 'Senior Technical Project Manager',
-    description: 'As the linchpin of project success at CyberSoft Vantage, our Senior Technical Project Manager meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
-    linkedin: "https://www.linkedin.com/in/muneeb-ur-rehman-929647177/"
   },
   {
     image: '/team/csv/8.png',
@@ -393,6 +398,13 @@ export const teamCards: T.TeamCards[] = [
     description: 'As the linchpin of project success at CyberSoft Vantage, our Senior Technical lead meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
     linkedin: "https://www.linkedin.com/in/muhammad-sufyan-373819140"
   },
+  {
+    image: '/team/csv/90.png',
+    heading: 'Arbab Zafar',
+    tagline: 'Software engineer ',
+    description: 'As a key contributor at CyberSoft Vantage, Arbab Zafar meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations. His expertise and dedication make him an invaluable asset to our team.',
+    linkedin: "https://www.linkedin.com/in/arbab-zafar-web-developer/"
+  },
 ]
 
 export const serviceCards: T.ServiceCards[] = [
@@ -403,47 +415,47 @@ export const serviceCards: T.ServiceCards[] = [
     services: [
       {
         Icon: SiSalesforce,
-        title: 'salesforce',
+        title: 'Salesforce',
         url: 'salesforce'
       },
       {
         Icon: FaServicestack,
-        title: 'services now',
+        title: 'Services Now',
         url: 'services-now'
       },
       {
         Icon: SiMulesoft,
-        title: 'mulesoft',
+        title: 'Mulesoft',
         url: 'mulesoft'
       },
       {
         Icon: FaAws,
-        title: 'aws',
+        title: 'AWS',
         url: 'aws'
       },
       {
         Icon: SiCyberdefenders,
-        title: 'cyber security',
+        title: 'Cyber Security',
         url: 'cyber-security'
       },
       {
         Icon: SiBugcrowd,
-        title: 'bpo',
+        title: 'BPO',
         url: 'bpo'
       },
       {
         Icon: SiMixcloud,
-        title: 'cloud migration',
+        title: 'Cloud Migration',
         url: 'cloud-migration'
       },
       {
         Icon: FaShopify,
-        title: 'shopify',
+        title: 'Shopify',
         url: 'shopify'
       },
       {
         Icon: SiPowerbi,
-        title: 'power bi',
+        title: 'Power Bi',
         url: 'power-bi'
       },
     ]
@@ -455,39 +467,39 @@ export const serviceCards: T.ServiceCards[] = [
     services: [
       {
         Icon: BsClipboard2Data,
-        title: 'data science & ai',
+        title: 'Data Science & AI',
         url: 'data-science-ai'
       },
       {
         Icon: SiBlockchaindotcom,
-        title: 'blockchain',
+        title: 'Blockchain',
         url: 'blockchain'
       },
       {
         Icon: SiSinglestore,
-        title: 'internet of things',
+        title: 'Internet Of Things',
         url: 'internet-of-things'
       },
       {
         Icon: GiVrHeadset,
-        title: 'ar/vr',
+        title: 'AR/VR',
         url: 'ar-vr'
       },
 
 
       {
         Icon: MdOutlineHealthAndSafety,
-        title: 'healthcare',
+        title: 'Healthcare',
         url: 'healthcare'
       },
       {
         Icon: GiGiftOfKnowledge,
-        title: 'e-learning',
+        title: 'E-learning',
         url: 'e-learning'
       },
       {
         Icon: FaRobot,
-        title: 'robotic process automation',
+        title: 'Robotic Process Automation',
         url: 'robotic-process-automation'
       },
     ]
@@ -499,37 +511,37 @@ export const serviceCards: T.ServiceCards[] = [
     services: [
       {
         Icon: FaSearchengin,
-        title: 'q/a testing',
+        title: 'Q/A Testing',
         url: 'qa-testing'
       },
       {
         Icon: LuPenTool,
-        title: 'ui/ux design',
+        title: 'UI/UX Design',
         url: 'ui-ux-design'
       },
       {
         Icon: SiInternetcomputer,
-        title: 'dev ops',
+        title: 'Dev Ops',
         url: 'dev-ops'
       },
       {
         Icon: FaMobileScreenButton,
-        title: 'mobile development',
+        title: 'Mobile Development',
         url: 'mobile-development'
       },
       {
         Icon: CgWebsite,
-        title: 'custom software development',
+        title: 'Custom Software Development',
         url: 'custom-software-development'
       },
       {
         Icon: SiInternetcomputer,
-        title: 'embedded software development',
+        title: 'Embedded Software Development',
         url: 'embedded-software-development'
       },
       {
         Icon: GrIntegration,
-        title: 'web app development',
+        title: 'Web App Development',
         url: 'web-app-development'
       },
     ]
@@ -574,22 +586,22 @@ export const serviceCards: T.ServiceCards[] = [
     services: [
       {
         Icon: FaUserGroup,
-        title: 'discovery workshop',
+        title: 'Discovery Workshop',
         url: 'discovery-workshop'
       },
       {
         Icon: IoDocumentTextOutline,
-        title: 'product strategy',
+        title: 'Product Strategy',
         url: 'product-strategy'
       },
       {
         Icon: BsPersonFillGear,
-        title: 'process consulting',
+        title: 'Process Consulting',
         url: 'process-consulting'
       },
       {
         Icon: GiBigGear,
-        title: 'poc',
+        title: 'POC',
         url: 'poc'
       },
     ]

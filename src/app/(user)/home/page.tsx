@@ -1,5 +1,6 @@
 import * as C from "@/components/index";
 import {
+  companyName,
   homePartnership,
   homePartnership2,
   serviceCards,
@@ -47,7 +48,12 @@ const HomePage = () => (
       url={homePartnership2.url}
       btn={homePartnership2.btn}
     />
+    <C.Accordion />
   </>
 );
 
 export default HomePage;
+
+export const metadata = {
+  title: `Home | ${companyName}`,
+};

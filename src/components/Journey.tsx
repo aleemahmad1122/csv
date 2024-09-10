@@ -38,7 +38,12 @@ const Journey = () => {
                     <v.Icon />
                   </span>
                   <h1 className="text-4xl font-semibold text-TDarkBlue">
-                    <CountUp start={0} end={v.count} duration={4} />
+                    <CountUp
+                      start={0}
+                      end={v.count}
+                      duration={4}
+                      decimals={1}
+                    />
                     {v.plus && "+"}
                   </h1>
                   <p className="text-xs text-gray-500 capitalize">{v.p}</p>

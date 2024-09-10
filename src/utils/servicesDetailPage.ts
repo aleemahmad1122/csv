@@ -14,7 +14,7 @@ import * as Bs from "react-icons/bs";
 
 
 export const serviceDetailCard: T.ServiceDetailCard[] = [
- 
+
   {
     page: 'digital-marketing-services',
     heading: `Digital Marketing Services`,
@@ -161,7 +161,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
   {
     page: 'mobile-development',
     heading: `Our Mobile Apps Are Engineered To Be Secure, Fast & User Friendly`,
-    description: `Tkxel offers full-service mobile app development. Whether you need design, coding, management, or integration services, we'll build your product from scratch into a fully functioning application that meets your expectations.
+    description: `CyberSoft Vantage offers full-service mobile app development. Whether you need design, coding, management, or integration services, we'll build your product from scratch into a fully functioning application that meets your expectations.
 
       We start with the end in mind. We dig deep to make sure we understand your industry, user, and value proposition. Then we define the metrics and KPIs that guide our success. We help you create a product that delights your users. And we help you develop a brand strategy based on extensive user research, usability testing, and competitive analysis.`,
     cardsData: [
@@ -305,7 +305,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
   },
   {
     page: 'ui-ux-design',
-    heading: `Tkxel Pivots On A Solid Foundation, One That Is Built On Your Vision & Our Expertise.`,
+    heading: `CyberSoft Vantage Pivots On A Solid Foundation, One That Is Built On Your Vision & Our Expertise.`,
     description: `We apply collaborative, human-centered design thinking to even the toughest of business challenges. With a relentless commitment to innovation and world-class craftsmanship, we deliver the most beautiful, meaningful and impactful experiences for your customers.`,
     cardsData: [
       {
@@ -314,7 +314,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
         description: '',
         data: [
           {
-            Icon: Fa.FaAirFreshener ,
+            Icon: Fa.FaAirFreshener,
             title: `User Research`,
             description: `We conduct research on target users to understand their needs, behaviors, and preferences.`
           },
@@ -400,7 +400,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
   {
     page: 'custom-software-development',
     heading: `Your Custom Software Development Partner`,
-    description: `tkxel is a digital innovation hub that can bring your world-changing ideas to life. With us on your side, you get access to the best of both worlds: top 2% talent on one side, and an innovative value-driven approach on the other.
+    description: `CyberSoft Vantage is a digital innovation hub that can bring your world-changing ideas to life. With us on your side, you get access to the best of both worlds: top 2% talent on one side, and an innovative value-driven approach on the other.
 
     We’ve got hundreds of emerging tools and technologies that can rocket-launch your product into the marketplace.`,
     cardsData: [
@@ -451,7 +451,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
   {
     page: 'embedded-software-development',
     heading: `We Help You Build Embedded Systems From The Ground Up, Working With You Every Step Of The Way.`,
-    description: `tkxel builds secure, scalable multi-technology network solutions that connect user devices, business units and industrial systems.
+    description: `CyberSoft Vantage builds secure, scalable multi-technology network solutions that connect user devices, business units and industrial systems.
 
     As an embedded software development company, we have a proven track record of delivering high-quality software solutions for a wide range of embedded systems and applications.`,
     cardsData: [
@@ -500,7 +500,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
   {
     page: 'web-app-development',
     heading: `High-Performance, Fault-Tolerant & Scalable Web Applications.`,
-    description: `Tkxel helps you go beyond your current application landscape and embrace a dynamic, fast-paced approach to IT. By offering a full suite of web application development, modernization and management services, we can help you through each stage of your application lifecycle.`,
+    description: `CyberSoft Vantage helps you go beyond your current application landscape and embrace a dynamic, fast-paced approach to IT. By offering a full suite of web application development, modernization and management services, we can help you through each stage of your application lifecycle.`,
     cardsData: [
       {
         bg: true,
@@ -539,7 +539,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             Icon: Si.SiSystem76,
             title: `E-Commerce Web
             Development`,
-            description: `Tkxel can build web apps for e-commerce businesses, including online stores, shopping carts, and payment gateway integration.`
+            description: `CyberSoft Vantage can build web apps for e-commerce businesses, including online stores, shopping carts, and payment gateway integration.`
           }
         ]
       },
@@ -1126,7 +1126,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `Transforming data into insightful and interactive reports.`
           },
           {
-            Icon:Fa.FaChartBar,
+            Icon: Fa.FaChartBar,
             title: `Dashboard Creation`,
             description: `Visualizing your data, from insights to actions.`
           },
@@ -1173,7 +1173,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `Using a data-driven methodology, we will scale your analytics efforts to measurable business outcomes.`
           },
           {
-            Icon:Fa.FaChartBar,
+            Icon: Fa.FaChartBar,
             title: `Data Discovery & Augmentation`,
             description: `Using third-party data and predictive analytics, we provide you with holistic customer views.`
           },
@@ -1207,7 +1207,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
   {
     page: 'blockchain',
     heading: `Become A Part Of Blockchain Revolution`,
-    description: `Join hundreds of passionate entrepreneurs making their mark in Web 3.0 with tkxel.`,
+    description: `Join hundreds of passionate entrepreneurs making their mark in Web 3.0 with CyberSoft Vantage.`,
     cardsData: [
       {
         bg: true,
@@ -1220,7 +1220,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `Blockchain prevents fraud and unauthorized activity by establishing immutable, end-to-end encrypted records making it hacking-proof.s`
           },
           {
-            Icon:Fa.FaChartBar,
+            Icon: Fa.FaChartBar,
             title: `Greater Transparency`,
             description: `All transactions are time-stamped and irrefutable. Members can view a transaction's whole history, preventing fraud.`
           },
@@ -1267,7 +1267,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `Our consultants devise strategies that align with all your tech needs whether you have just one part of an IoT puzzle missing or require a full-scale solution.`
           },
           {
-            Icon:Fa.FaChartBar,
+            Icon: Fa.FaChartBar,
             title: `App Development`,
             description: `Customized mobile and web apps that harness the power of connected devices to empower enterprises with next-generation IoT products.`
           },
@@ -1314,7 +1314,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `We offer real-world enhancements with digital twins and visual overlays enabling countless business opportunities across all industries.`
           },
           {
-            Icon:Si.SiVirtualbox,
+            Icon: Si.SiVirtualbox,
             title: `Augmented Reality`,
             description: `We offer real-world enhancements with digital twins and visual overlays enabling countless business opportunities across all industries.`
           },
@@ -1361,7 +1361,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `Our custom healthcare software development services enable patients to view their medical records anytime, anywhere.`
           },
           {
-            Icon:Si.SiVirtualbox,
+            Icon: Si.SiVirtualbox,
             title: `Reduce Operational Costs`,
             description: `We help you digitalize your core processes and workflows to reduce inventory tracking, waste, and resource allocation.`
           },
@@ -1408,7 +1408,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `Develop interactive and engaging software that provide learners with opportunities to learn through gameplay.`
           },
           {
-            Icon:Si.SiVirtualbox,
+            Icon: Si.SiVirtualbox,
             title: `Learning Management Systems (LMS)`,
             description: `Create and manage online and blended learning environments.`
           },
@@ -1455,14 +1455,14 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
             description: `We'll analyze and automate the right processes (based on expected ROI). Build PoCs, automation roadmaps, and RPA bots so you can focus on your core business.`
           },
           {
-            Icon:Si.SiVirtualbox,
+            Icon: Si.SiVirtualbox,
             title: `Speed Up Operations`,
             description: `Redirect mind-numbing, repetitive duties to high-value functions. We ensure data accuracy and consistency to speed up your operations.`
           },
           {
             Icon: Fa6.FaPeopleCarryBox,
             title: `Improve ROI`,
-            description: `By taking a strategic, holistic approach to cloud automation, tkxel helps businesses build a strong business case, increase revenue, and gain a competitive edge.`
+            description: `By taking a strategic, holistic approach to cloud automation, CyberSoft Vantage helps businesses build a strong business case, increase revenue, and gain a competitive edge.`
           },
         ]
       },
@@ -1474,7 +1474,7 @@ export const serviceDetailCard: T.ServiceDetailCard[] = [
           {
             Icon: Gi.Gi3DMeeple,
             title: `Optimize Processes`,
-            description: `tkxel offers numerous process optimization solutions. From process re-engineering to no code/low code solutions, we will help you fast-track your business transformation.`
+            description: `CyberSoft Vantage offers numerous process optimization solutions. From process re-engineering to no code/low code solutions, we will help you fast-track your business transformation.`
           },
           {
             Icon: Si.SiXdadevelopers,

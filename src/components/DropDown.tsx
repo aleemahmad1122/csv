@@ -36,7 +36,7 @@ const DropDown = () => {
                       key={index}
                       className={`${
                         path.includes(v.url) ? "text-Tblue" : "text-gray-800"
-                      }  cursor-pointer capitalize w-full transition-all duration-300 hover:text-Tblue`}
+                      }  cursor-pointer  w-full transition-all duration-300 hover:text-Tblue`}
                     >
                       <Link
                         onClick={() => setIsOpen(false)}
