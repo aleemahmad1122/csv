@@ -25,7 +25,7 @@ const Journey = () => {
         <div className="w-full md:w-[40%]    h-[35rem]">
           <h6 className="font-bold text-2xl text-TLightBlue leading-relaxed">{`We specialize in assisting start-ups, SMEs, and enterprises in business growth through embedded engineers and outsourced software development services.`}</h6>
 
-          <p className="text-sm my-4 text-justify">{`We excel in translating your vision into digital reality. Since 2019, we've been dedicated to providing top-tier custom services aimed at empowering you to innovate, expand, and lead within your industry.`}</p>
+          <p className=" my-4 text-justify">{`We excel in translating your vision into digital reality. Since 2019, we've been dedicated to providing top-tier custom services aimed at empowering you to innovate, expand, and lead within your industry.`}</p>
 
           <ul className="flex flex-wrap items-center md:justify-between justify-center px-10 gap-4  ">
             {journey.length > 0 &&
@@ -42,7 +42,7 @@ const Journey = () => {
                       start={0}
                       end={v.count}
                       duration={4}
-                      decimals={1}
+                      decimals={v.decimal ? 1 : 0}
                     />
                     {v.plus && "+"}
                   </h1>

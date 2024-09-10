@@ -29,7 +29,7 @@ const HomePartnership = ({
         <h1 className="sm:text-4xl font-bold text-TDarkBlue capitalize">
           {heading}
         </h1>
-        <p className="text-gray-500 text-xs sm:text-sm my-4">{description}</p>
+        <p className="text-gray-500 text-xs sm: my-4">{description}</p>
         {btn && (
           <Link href={url}>
             <Button className="bg-Tblue hover:bg-TDarkBlue capitalize">

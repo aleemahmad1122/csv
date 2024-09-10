@@ -4,7 +4,6 @@ import * as con from "@/constants/index";
 const company = () => (
   <>
     <C.Hero
-      text="enterprises growth companies startups"
       url="#contact-form"
       btn={"tell us about your project"}
       heading="Why Our Clients Choose Us as Their Preferred Partner"

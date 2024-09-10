@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`scroll-smooth`}>
+      <body className={`scroll-smooth text-xl `}>
         <Com.Header />
         {children}
         <Com.SuccessSnippets />

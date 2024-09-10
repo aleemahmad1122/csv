@@ -10,7 +10,6 @@ const HomePage = () => (
   <>
     <C.Hero
       heading="Fostering Future Leaders in the Digital World"
-      text="enterprises growth companies startups"
       url="#contact-form"
       btn={"Describe Your Project!"}
       poster="/banner-1.png"

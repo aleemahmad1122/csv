@@ -46,7 +46,7 @@ const Services = ({
               <div className="group-hover:text-Tblue duration-300 transition-all text-2xl">
                 <v.Icon size={30} />
               </div>
-              <h1 className="lowercase duration-300 transition-all group-hover:text-Tblue text-xs ">
+              <h1 className="  duration-300 transition-all group-hover:text-Tblue ">
                 {v.title}
               </h1>{" "}
               <span className="group-hover:text-Tblue duration-300 transition-all">

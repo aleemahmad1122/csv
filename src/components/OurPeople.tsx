@@ -19,7 +19,7 @@ const OurPeople = () => (
         <h1 className="font-bold text-TDarkBlue sm:text-4xl text-xl sm:leading-relaxed leading-relaxed capitalize">
           {ourPeople.heading}
         </h1>
-        <p className="my-6 text-gray-600 sm:text-sm text-xs ">
+        <p className="my-6 text-gray-600 sm: text-xs ">
           {ourPeople.description}
         </p>
         <Link href={ourPeople.url}>

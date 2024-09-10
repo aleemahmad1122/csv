@@ -35,20 +35,21 @@ const Footer = () => {
               <Logo color={false} />
             </figure>
             <div className="mt-4 lg:max-w-sm">
-              <p className="text-sm text-gray-300">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+              <p className=" text-gray-300 text-sm">
+                We specialize in assisting start-ups, SMEs, and enterprises in
+                business growth through embedded engineers and outsourced
+                software development services.
               </p>
-              <p className="mt-4 text-sm text-gray-300">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
+              <p className="mt-4  text-gray-300 text-sm">
+                CSV cultivates strategic partnerships with top technology
+                providers to enhance our solutions significantly.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             {serviceCards.slice(0, 4).map((category, index) => (
               <div key={index}>
-                <p className="font-bold mb-8 tracking-wide text-white text-xl">
+                <p className="font-bold mb-2 tracking-wide text-white text-xl">
                   {category.heading}
                 </p>
                 <ul className="mt-2 space-y-2">
@@ -60,7 +61,7 @@ const Footer = () => {
                             ? link.url
                             : `service/${link.url}`
                         }
-                        className="transition-colors duration-300 text-gray-300 hover:text-white"
+                        className="transition-colors duration-300 text-gray-300 hover:text-white text-sm"
                       >
                         {link.title}
                       </Link>
@@ -72,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
-          <p className="text-sm text-gray-100">
+          <p className=" text-gray-100">
             © Copyright {currentYear} CyberSoft Vantage. All rights reserved.
           </p>
           <div className="flex flex-wrap items-center gap-4">

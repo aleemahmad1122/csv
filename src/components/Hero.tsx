@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 interface Pros {
-  heading: string;
+  heading?: string;
   url?: string;
   btn?: string;
   video?: string;
@@ -45,7 +45,7 @@ const Hero: React.FC<Pros> = ({ heading, url, btn, video, poster, text }) => {
 
         {btn && url && (
           <Link href={url}>
-            <Button className="bg-Tblue hover:bg-TDarkBlue capitalize">
+            <Button className="bg-Tblue hover:bg-TDarkBlue capitalize text-xl">
               {btn}
             </Button>
           </Link>

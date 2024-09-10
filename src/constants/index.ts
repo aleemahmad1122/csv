@@ -225,25 +225,29 @@ export const journey: T.Journey[] = [
     count: 100,
     p: 'people onboard',
     plus: true,
-    Icon: FaUser
+    Icon: FaUser,
+    decimal: false
   },
   {
     count: 4,
     p: 'global offices',
     plus: false,
-    Icon: FaHome
+    Icon: FaHome,
+    decimal: false
   },
   {
     count: 150,
     p: 'projects completed',
     plus: true,
-    Icon: FaLightbulb
+    Icon: FaLightbulb,
+    decimal: false
   },
   {
     count: 4.9,
     p: 'clutch rating',
     plus: false,
-    Icon: PiClubFill
+    Icon: PiClubFill,
+    decimal: true
   },
 ]
 

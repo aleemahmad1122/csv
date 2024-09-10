@@ -112,6 +112,7 @@ export interface Journey {
     p: string;
     plus: boolean;
     Icon: IconType;
+    decimal: boolean;
 
 }
 

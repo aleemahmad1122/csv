@@ -27,7 +27,6 @@ const Jobs = ({ params: { slug } }: Pros) => {
     <>
       <C.Hero
         heading={`${slug.split("-").join(" ")}`}
-        text="enterprises growth companies startups"
         url="#contact-form"
         btn={"tell us about your project"}
         poster="/banner-1.png"
