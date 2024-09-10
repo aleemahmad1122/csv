@@ -2,6 +2,7 @@
 import * as C from "@/components/index";
 import { FaLinkedin } from "react-icons/fa";
 import ourTeam from "@/utils/ourTeam";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -28,7 +29,7 @@ const page = () => {
             {ourTeam.length > 0 &&
               ourTeam.map((v, i) => (
                 <div key={i} className="text-center text-gray-500  ">
-                  <img
+                  <Image
                     className="mx-auto mb-4 w-36 h-36 rounded-full"
                     src={v.image}
                     alt="Bonnie Avatar"
