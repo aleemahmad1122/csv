@@ -2,10 +2,9 @@ import * as C from "@/components/index";
 import * as Con from "@/constants/index";
 import * as Pages from "@/utils/servicesDetailPage";
 
-// Return a list of `params` to populate the [slug] dynamic segment
 export async function generateStaticParams() {
-  const paths = Con.serviceCards.flatMap((card) =>
-    card.services.map((service) => ({ slug: service.url }))
+  const paths = Con.serviceCards.flatMap((_) =>
+    _.services.map((__) => ({ slug: __.url }))
   );
   return paths;
 }

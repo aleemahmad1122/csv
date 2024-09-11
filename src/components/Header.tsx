@@ -2,10 +2,11 @@
 import { usePathname, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Logo, MobileMenu, DropDown } from "@/components/index";
-import { navLinks } from "@/constants/index";
+import { navLinks, socialLinks } from "@/constants/index";
 import { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const router = useRouter();
@@ -51,13 +52,30 @@ const Header = () => {
             <Logo color={false} />
           </figure>
           <div className="flex items-center lg:order-2">
-            <div
-              className="hidden lg:flex"
-              onClick={() => router.push("/contact-us")}
-            >
-              <Button className="bg-Tblue hover:bg-TDarkBlue hidden sm:block">
+            <div className="hidden lg:flex">
+              <Button
+                onClick={() => router.push("/contact-us")}
+                className="bg-Tblue hover:bg-TDarkBlue hidden sm:block"
+              >
                 Contact Us
               </Button>
+              <ul className="flex flex-wrap items-center sm:gap-4 gap-3 ml-3">
+                {socialLinks.length > 0 &&
+                  socialLinks.map((v, i) => (
+                    <li
+                      key={i}
+                      className="w-fit h-fit hover:bg-TLightBlue text-white rounded-full hover:text-TDarkBlue duration-300 transition-all"
+                    >
+                      <Link
+                        href={v.url}
+                        target="_blank"
+                        className="text-xs sm:text-xl flex items-center justify-center sm:p-2 sm:h-8 h-5 sm:w-8 w-5"
+                      >
+                        <v.Icon />
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
             </div>
             <HiOutlineMenuAlt3
               color="white"

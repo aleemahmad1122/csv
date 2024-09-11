@@ -18,10 +18,13 @@ const HomePage = () => (
 
     <C.Journey />
 
+    <C.VelocityText content="CSV is fueled by a diverse team of more than 100 professionals spread across two global offices. With a track record of over 150 successful projects and an outstanding rating of 4.9.  " />
+
     <C.OurPeople />
 
-    <C.Info />
+    {/* <C.Info /> */}
 
+    <C.TextParallaxContent />
     <C.Services
       bg={true}
       url="/services"
@@ -37,7 +40,7 @@ const HomePage = () => (
       image={homePartnership.image}
     />
 
-    <C.Testimonial />
+    {/* <C.Testimonial /> */}
 
     <C.HomePartnership
       heading={homePartnership2.heading}

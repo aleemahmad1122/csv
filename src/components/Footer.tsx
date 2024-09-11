@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
-          <p className=" text-gray-100">
+          <p className=" text-gray-100 text-sm">
             © Copyright {currentYear} CyberSoft Vantage. All rights reserved.
           </p>
           <div className="flex flex-wrap items-center gap-4">
