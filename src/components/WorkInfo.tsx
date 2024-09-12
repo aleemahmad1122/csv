@@ -10,7 +10,7 @@ const WorkInfo = () => {
       des: "With increased focus on clean energy, CSV has worked with California based Green Energy Satrtup called Gemini Emergy Solutions for which we have developed a web application from that provides energy consultancy to corporate and residential clients with use of IoTs and Machine Learning",
     },
     {
-      link: "/v2.mp4",
+      link: "/v3.mp4",
       title: "CARGOMATIC",
       des: `Our team of Solution Architects and Engineers played a crucial role towards development of one of the leading cargo management apps in the US called Cargomatic.
 
@@ -19,7 +19,7 @@ Cargomatic connects shippers with available truck drivers to move goods efficien
 From architecture design, to both frontend and backend development, and databse design our team significantly contributed towards the product development.`,
     },
     {
-      link: "/v3.mp4",
+      link: "/v2.mp4",
       title: "DrFirst",
       des: "Worked on a Electronic Health Record app that is integrated with various medical data sources to provide more accurate real time data for medical practitioners. In later iterations of the app, used AI tools to embed medical imagining and diagnostics features.",
     },
@@ -32,7 +32,7 @@ From architecture design, to both frontend and backend development, and databse 
   return (
     <section>
       <div className="container relative mx-auto px-4  pt-20   gap-6">
-        <h1 className="capitalize text-center font-bold sm:text-4xl text-TDarkBlue lg:w-[45%] sm:leading-relaxed mx-auto my-6">
+        <h1 className="capitalize text-center font-bold sm:text-4xl md:text-[350%] text-TDarkBlue lg:w-[80%] sm:leading-relaxed mx-auto my-6 md:my-9">
           why we&apos;re the partner of choice for our clients
         </h1>
       </div>
@@ -41,10 +41,12 @@ From architecture design, to both frontend and backend development, and databse 
         {content.map((v, i) => (
           <div key={v.link} className=" w-full flex flex-wrap gap-6">
             <div className={`w-full  md:flex-1 ${i % 2 !== 0 && "order-2"}`}>
-              <h1 className="capitalize font-bold text-TDarkBlue mb-3 md:text-3xl text-justify">
+              <h1 className="capitalize font-bold text-TDarkBlue mb-3 md:text-[260%] md:mb-10 text-justify">
                 {v.title}
               </h1>
-              <p className="capitalize text-gray-600 text-justify ">{v.des}</p>
+              <p className="capitalize text-gray-600 text-justify md:text-[120%] leading-relaxed tracking-wider">
+                {v.des}
+              </p>
             </div>
 
             <div className="w-full md:w-[50%] overflow-hidden rounded-lg md:h-[30rem]">

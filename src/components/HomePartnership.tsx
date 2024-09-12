@@ -19,7 +19,7 @@ const HomePartnership = ({
   btn,
   url = "",
 }: Pros) => (
-  <section>
+  <section className="py-8 pb-16">
     <div
       className={`container mx-auto px-4 flex flex-wrap items-center pt-20 sm:gap-4 ${
         className && className
@@ -29,7 +29,9 @@ const HomePartnership = ({
         <h1 className="sm:text-4xl font-bold text-TDarkBlue capitalize">
           {heading}
         </h1>
-        <p className="text-gray-500 text-xs sm: my-4">{description}</p>
+        <p className="text-gray-500  my-4 sm:text-xs md:text-xl">
+          {description}
+        </p>
         {btn && (
           <Link href={url}>
             <Button className="bg-Tblue hover:bg-TDarkBlue capitalize">

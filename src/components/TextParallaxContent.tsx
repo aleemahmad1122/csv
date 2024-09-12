@@ -133,7 +133,7 @@ const ExampleContent = ({ btn, h, p1, p2, url }: ExampleContentProps) => {
         <p className="mb-4 text-xl text-neutral-600 md:text-2xl">{p1}</p>
         <p className="mb-8 text-xl text-neutral-600 md:text-2xl">{p2}</p>
         <Link href="/contact-us" className="block">
-          <Button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit capitalize text-center flex items-center justify-center gap-4">
+          <Button className="bg-Tblue hover:bg-TDarkBlue flex items-center gap-4 capitalize text-xl">
             {btn} <FiArrowUpRight className="inline" />
           </Button>
         </Link>
