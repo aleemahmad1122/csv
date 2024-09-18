@@ -35,12 +35,12 @@ const VelocityText = ({ content }: Props) => {
   return (
     <section
       ref={targetRef}
-      className="h-[1000vh] bg-neutral-50 text-TDarkBlue stroke-red-500 textst"
+      className="h-[120vh] bg-neutral-50 text-TDarkBlue stroke-red-500 text-center flex items-center justify-center"
     >
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.p
           style={{ skewX, x }}
-          className="origin-bottom-left whitespace-nowrap text-5xl font-black uppercase leading-[0.85] md:text-7xl md:leading-[0.85]"
+          className="origin-center-left whitespace-nowrap text-5xl font-black uppercase leading-[0.85] md:text-7xl md:leading-[0.85]"
         >
           {content}
         </motion.p>
