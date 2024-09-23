@@ -40,7 +40,7 @@ export const navLinks: T.NavLink[] = [
 export const socialLinks: T.SocialLinks[] = [
   { Icon: FaLinkedinIn, url: "https://www.linkedin.com/company/csvantage" },
   { Icon: FaFacebookF, url: "https://www.facebook.com/csvantage/" },
-  { Icon: FaInstagram, url: "https://www.instagram.com/csvantage/reel/C2czMr6v-OL/" },
+  { Icon: FaInstagram, url: "https://www.instagram.com/csvantage" },
 
 ]
 
